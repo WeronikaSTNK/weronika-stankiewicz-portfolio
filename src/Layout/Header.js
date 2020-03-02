@@ -17,6 +17,7 @@ export const Header = () => {
         <h3>
           <div className="headerLightName"> Frontend Developer </div>
         </h3>
+
       </section>
       <ScrollButton
       behavior={'smooth'}

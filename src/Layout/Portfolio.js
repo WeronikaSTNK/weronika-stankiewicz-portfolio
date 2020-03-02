@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import About from './About';
 import content from '../content.json';
+import Footer from './Footer';
 
 class Portfolio extends Component {
   state = {
@@ -70,6 +71,7 @@ class Portfolio extends Component {
         <main>
           <About content={content} scrollY={scrollY} />
         </main>
+        < Footer />
       </>
     );
   }

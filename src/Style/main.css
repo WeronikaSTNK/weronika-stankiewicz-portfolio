@@ -50,7 +50,7 @@ h3 .headerLightName {
 header img {
   border-radius: 50%;
   width: 150px;
-  border: 2px solid;
+  border: 1px solid;
     animation: enter 2s ease-in-out both;
 
 }

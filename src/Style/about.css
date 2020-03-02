@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 50px;
   margin: auto;
-  padding: 30px 30px;
+  padding: 0px 30px;
 }
 .aboutMeIntro {
   text-align: justify;
@@ -23,4 +23,16 @@
   align-items: flex-end;
   align-content: center;
   flex-wrap: wrap;
+}
+
+.woodstock {
+  text-align: center;
+}
+.counter {
+  font-size: 2rem;
+  color: var(--dark-color);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;;
+
 }

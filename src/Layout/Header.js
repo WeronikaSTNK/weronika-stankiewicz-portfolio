@@ -1,9 +1,12 @@
 import React from "react";
 import avatar from "../images/avatar.jpg";
 import css from "../Style/main.css";
+import ScrollButton from 'react-scroll-button'
+
+
 export const Header = () => {
   return (
-    <header>
+    <header id="header">
       <div>
         <img src={avatar} alt="Logo" />
       </div>
@@ -15,6 +18,12 @@ export const Header = () => {
           <div className="headerLightName"> Frontend Developer </div>
         </h3>
       </section>
+      <ScrollButton
+      behavior={'smooth'}
+                buttonBackgroundColor={'var(--dark-main-color)'}
+                iconType={'arrow-up'}
+                style= {{fontSize: '24px'}}
+                targetId={"header"}/>
       <div className="scrollDown"></div>
     </header>
   );

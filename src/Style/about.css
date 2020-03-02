@@ -1,0 +1,26 @@
+.introduction {
+  width: 100%;
+  min-height: 50px;
+  margin: auto;
+  padding: 30px 30px;
+}
+.aboutMeIntro {
+  text-align: justify;
+  padding: 15px 0;
+  text-indent: 1.5rem;
+}
+
+.woodstock img {
+    max-height: 100px;
+    max-width: 150px;;
+}
+
+.woodstockWrapper {
+  margin: 20px;
+    display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
+}

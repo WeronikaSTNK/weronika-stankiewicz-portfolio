@@ -1,13 +1,35 @@
 [{
    "language": "pl",
+
         "home": "Start",
         "about": "O mnie",
         "soft_skills": "Umiejętności miękkie",
         "skill_team": "Świetnie czuję się pracując zespołowo",
-        "skill_communication": "Jestem bardzo komunikatywna i łatwo nawiązuję kontakt",
+        "skill_communication": "Jestem bardzo komunikatywna i łatwo nawiązuję kontakt.",
+        "skill_ambitious": "Zawsze byłam bardzo ambitna. Studia kończyłam z oceną bardzo dobrą i stypendum rektora.",
+        "skill_learn": "Lubię się uczyć. Wiem, że programowanie wymaga dużo samozaparcia i wytrwałości.",
+        "hard_skills": "Umiejętności twarde",
+        "html": "Znam HTML",
+        "CSS": "Znam CSS",
+        "javascript": "Cały czas uczę się języka JavaScript. Potrafię już wiele, chcę potrafić więcej",
+        "react": "React.js jest moją ulubioną częścią frontendu. Programuję w nim funkcyjnie.",
+        "git": "Bez problemu korzystam z git'a",
+        "github": "Sprawnie poruszam się po githubie i gitlabie",
+        "jira": "Zdobyłam już doświadczenie w obsłudze jiry.",
+        "sass": "Nigdy nie używałam za dużo, jednak wiem co można robic przy pomocy SASS'a i nie stronię od używania tej biblioteki",
+        "scrum": "Znam metodologię pracy w SCRUMie.",
+        "redux": "Rozumiem architekturę Flux i jednokierunkowy przepływ danych w Reduxie",
+        "materialUI":"Wieloktrotnie korzystałam z tej biblioteki",
+        "flexbox": "Nauczyłam się flexboxa, aby sprawnie tworzyć responsywne widoki",
+        "cypress": "Moja przygoda z pracą w IT zaczęła się pisaniem testów end to end w Cypress.io",
+        "vscode": "Piszę w Visual Studio Code. Znam, cenię i lubię.",
+        "npm": "Korzystam z npm'a",
+        "conf": "Mam niewielkie doświadczenie w pisaniu dokumentacji w Confluence",
+        "styled_components": "Potrafię zaimplementować w projekcie",
 "introduction1": "Nazywam się Weronika. Naukę programowania zaczęłam spontanicznie. Kończyłam wówczas Mechanikę i Budowę Maszyn na Politechnice Gdańskiej i zrozumiałam, że zabłądziłam wybierając kierunek studiów w szkole średniej. Rozpoczęłam od nauki HTML, CSS, JavaScript i React.js. Dzięki swojemu uporowi w 3 miesiące znalazłam pierwszy staż. Bardzo chcę rozwijać umiejętności w technologiach webowych. Wiem, że ogrom nauki przede mną. Jednak wiem też, że własnie tym chcę się zajmować w życiu.",
 "introduction2": "Prywatnie jestem ekstraweryczką. Uwielbiam kontakt z ludźmi. Mam cudownego synka i męża. Jestem ogromną entuzjastką muzyki i każdego roku odliczam czas w dniach, które pozostały do Woodstocku :). Jestem wegetarianką, a w wolnych chwilach uwielbiam eksperymentować w bezmięsnej kuchni, czytać książki (literatura faktu i kryminały) oraz od jakiegoś czasu ćwiczę pole dance. ",
 
-"woodstockCounter" : " do najpiękniejszego festiwalu na świecie!"
-
+"hover":" najedź na ikonkę ",
+"woodstockCounter" : " do najpiękniejszego festiwalu na świecie!",
+"additionalInfo": "Odbyłam dwa staże frontendowe. Podczas pierwszego stażu zajmowałam się pisaniem testów end to end w Cypress.io. Następnie uczyłam się React.js w ujęciu funkcyjnym (refaktoryzacja komponentów klasowych na funkcyjne). Zapoznałam się ze światem IT i metodologią pracy projektów komercyjnych. Drugi staż odbyłam jako jedna z dwóch programistów frontendowych we wewnętrznym projekcie firmy (sieć społeczna pracowników). Pracowałam w SCRUM'ie, więc ta metodologia jest mi dobrze znana. Korzystałam między innymi z Material-UI, Redux, Redux-SAGA, Jira, Confluence, Jenkins. Implementowałam nowe funkcjonalności oraz rozbudowywałam stare w React.js "
 }]

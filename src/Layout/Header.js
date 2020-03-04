@@ -31,7 +31,7 @@ export const Header = () => {
           <div className="headerLightName">Junior Frontend Developer </div>
         </h3>
 
-    <div id="scrollDownButton" class="demo">
+    <div id="scrollDownButton">
   <a href="#about"><span></span></a>
 </div>
       <ScrollButton

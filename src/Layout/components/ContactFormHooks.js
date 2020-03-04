@@ -1,6 +1,45 @@
 
-import React, { Component } from 'react';
+import React, { Component, useState} from 'react';
 import * as emailjs from 'emailjs-com';
+import content from "./../../content";
+
+
+export const ContactFormHooks = (props) => {
+  const {
+    your_name,
+    your_email,
+    your_message,
+    send_message,
+    language
+  } = props.content;
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [errors, setErrors] = useState({errorsName: '', errorsEmail:"", errorsMessage:""});
+
+
+  return (
+    <div>
+
+    </div>
+  )
+}
+
+
+export default ContactFormHooks
+
+
+
+
+
+
+
+
+
+
+
+
 
 class ContactForm extends Component {
   constructor(props) {

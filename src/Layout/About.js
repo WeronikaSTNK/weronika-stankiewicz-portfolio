@@ -19,7 +19,6 @@ export const About = props => {
         <div className="introduction">
           <p className="aboutMeIntro">{introduction1} </p>
                 <p className="aboutMeIntro"> {additionalInfo}</p>
-
           <p className="aboutMeIntro">{introduction2} </p>
           <div className="woodstockWrapper">
             <div className="woodstock">

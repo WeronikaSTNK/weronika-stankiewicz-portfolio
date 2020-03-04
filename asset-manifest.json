@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/weronika-stankiewicz-portfolio/static/css/main.5646a1a5.chunk.css",
+    "main.js": "/weronika-stankiewicz-portfolio/static/js/main.413b6d35.chunk.js",
+    "main.js.map": "/weronika-stankiewicz-portfolio/static/js/main.413b6d35.chunk.js.map",
+    "runtime-main.js": "/weronika-stankiewicz-portfolio/static/js/runtime-main.e6302750.js",
+    "runtime-main.js.map": "/weronika-stankiewicz-portfolio/static/js/runtime-main.e6302750.js.map",
+    "static/css/2.fc255550.chunk.css": "/weronika-stankiewicz-portfolio/static/css/2.fc255550.chunk.css",
+    "static/js/2.5e8cf67c.chunk.js": "/weronika-stankiewicz-portfolio/static/js/2.5e8cf67c.chunk.js",
+    "static/js/2.5e8cf67c.chunk.js.map": "/weronika-stankiewicz-portfolio/static/js/2.5e8cf67c.chunk.js.map",
+    "index.html": "/weronika-stankiewicz-portfolio/index.html",
+    "precache-manifest.a7719a35cde348ffab70f3bea08279fb.js": "/weronika-stankiewicz-portfolio/precache-manifest.a7719a35cde348ffab70f3bea08279fb.js",
+    "service-worker.js": "/weronika-stankiewicz-portfolio/service-worker.js",
+    "static/css/2.fc255550.chunk.css.map": "/weronika-stankiewicz-portfolio/static/css/2.fc255550.chunk.css.map",
+    "static/css/main.5646a1a5.chunk.css.map": "/weronika-stankiewicz-portfolio/static/css/main.5646a1a5.chunk.css.map",
+    "static/js/2.5e8cf67c.chunk.js.LICENSE.txt": "/weronika-stankiewicz-portfolio/static/js/2.5e8cf67c.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/weronika-stankiewicz-portfolio/static/media/avatar.1dd42986.jpg",
+    "static/media/font-awesome.min.css": "/weronika-stankiewicz-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/polandrock.png": "/weronika-stankiewicz-portfolio/static/media/polandrock.e20a2fde.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6302750.js",
+    "static/css/2.fc255550.chunk.css",
+    "static/js/2.5e8cf67c.chunk.js",
+    "static/css/main.5646a1a5.chunk.css",
+    "static/js/main.413b6d35.chunk.js"
+  ]
+}

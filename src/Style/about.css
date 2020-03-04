@@ -34,5 +34,53 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;;
+}
 
+.skills {
+   width: 100%;
+  min-height: 50px;
+  padding: 40px 40px;
+  text-align: center;
+
+}
+
+.skillsHeader {
+  padding: 10px 10px 30px 10px;
+  margin: 30px;
+  text-indent: 1.5rem;
+
+}
+.skillset {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skillset span {
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: white;
+  background: var(--main-color);
+  opacity: 0;
+  font-size: 1rem;
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+.skillset .icon:hover+span {
+  opacity: 3;
+}
+.descriptionNone {
+  opacity: 1;
+  font-size: .8rem;
+  margin-bottom:50px;
 }

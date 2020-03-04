@@ -5,7 +5,8 @@ import Header from './Header';
 import About from './About';
 import content from '../content.json';
 import Footer from './Footer';
-
+import Skills from './Skills'
+import Contact from './Contact';
 class Portfolio extends Component {
   state = {
     language: 'pl',
@@ -70,6 +71,8 @@ class Portfolio extends Component {
         <Header />
         <main>
           <About content={content} scrollY={scrollY} />
+        <Skills content={content} scrollY={scrollY}/>
+        <Contact content={content} scrollY={scrollY} />
         </main>
         < Footer />
       </>

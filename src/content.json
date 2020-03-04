@@ -28,8 +28,17 @@
         "styled_components": "Potrafię zaimplementować w projekcie",
 "introduction1": "Nazywam się Weronika. Naukę programowania zaczęłam spontanicznie. Kończyłam wówczas Mechanikę i Budowę Maszyn na Politechnice Gdańskiej i zrozumiałam, że zabłądziłam wybierając kierunek studiów w szkole średniej. Rozpoczęłam od nauki HTML, CSS, JavaScript i React.js. Dzięki swojemu uporowi w 3 miesiące znalazłam pierwszy staż. Bardzo chcę rozwijać umiejętności w technologiach webowych. Wiem, że ogrom nauki przede mną. Jednak wiem też, że własnie tym chcę się zajmować w życiu.",
 "introduction2": "Prywatnie jestem ekstraweryczką. Uwielbiam kontakt z ludźmi. Mam cudownego synka i męża. Jestem ogromną entuzjastką muzyki i każdego roku odliczam czas w dniach, które pozostały do Woodstocku :). Jestem wegetarianką, a w wolnych chwilach uwielbiam eksperymentować w bezmięsnej kuchni, czytać książki (literatura faktu i kryminały) oraz od jakiegoś czasu ćwiczę pole dance. ",
-
+"contact": "Kontakt",
+"send_me_a_message": "Jeśli masz jakieś pytania, proszę wyślij wiadomość lub skontaktuj się ze mną na LinkedIn'ie.",
+"your_name": "Twoje Imię:",
+"your_email": "E-mail",
+"your_message": "Wiadomość",
+"send_message": "Wyślij wiadomość",
 "hover":" najedź na ikonkę ",
 "woodstockCounter" : " do najpiękniejszego festiwalu na świecie!",
 "additionalInfo": "Odbyłam dwa staże frontendowe. Podczas pierwszego stażu zajmowałam się pisaniem testów end to end w Cypress.io. Następnie uczyłam się React.js w ujęciu funkcyjnym (refaktoryzacja komponentów klasowych na funkcyjne). Zapoznałam się ze światem IT i metodologią pracy projektów komercyjnych. Drugi staż odbyłam jako jedna z dwóch programistów frontendowych we wewnętrznym projekcie firmy (sieć społeczna pracowników). Pracowałam w SCRUM'ie, więc ta metodologia jest mi dobrze znana. Korzystałam między innymi z Material-UI, Redux, Redux-SAGA, Jira, Confluence, Jenkins. Implementowałam nowe funkcjonalności oraz rozbudowywałam stare w React.js "
+
+
+
+
 }]

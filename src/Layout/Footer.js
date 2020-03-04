@@ -10,7 +10,7 @@ export const Footer = () => {
         Created with
         <FontAwesomeIcon icon={faHeart} />
       </p>
-      <p> Weronika Stankiewicz &copy; 2020</p>
+      <p> weronika.stankiewicz94@gmail.com &copy;  2020</p>
     </footer>
   );
 };

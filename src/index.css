@@ -49,6 +49,7 @@ h3::after {
   z-index: -1;
 }
 
+
 h3:first-letter {
   display: block;
   color: white;

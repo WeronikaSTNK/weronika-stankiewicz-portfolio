@@ -8,7 +8,8 @@ export const About = props => {
     about,
     introduction1,
     introduction2,
-    woodstockCounter
+    woodstockCounter,
+    additionalInfo
   } = props.content;
 
   return (
@@ -17,6 +18,8 @@ export const About = props => {
         <h3 className="aboutMe"> {about}</h3>
         <div className="introduction">
           <p className="aboutMeIntro">{introduction1} </p>
+                <p className="aboutMeIntro"> {additionalInfo}</p>
+
           <p className="aboutMeIntro">{introduction2} </p>
           <div className="woodstockWrapper">
             <div className="woodstock">

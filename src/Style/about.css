@@ -41,15 +41,19 @@
   min-height: 50px;
   padding: 40px 40px;
   text-align: center;
-
+}
+.skills :nth-child(1) {
+  margin: 10px;
+  padding: 0px;
 }
 
-.skillsHeader {
+
+.skillsHeader  {
   padding: 10px 10px 30px 10px;
   margin: 30px;
   text-indent: 1.5rem;
-
 }
+
 .skillset {
   position: relative;
   display: flex;
@@ -80,7 +84,8 @@
   opacity: 3;
 }
 .descriptionNone {
-  opacity: 1;
+  opacity: 5;
   font-size: .8rem;
-  margin-bottom:50px;
+  margin-bottom: 50px;
+  color: var(--dark-color)
 }

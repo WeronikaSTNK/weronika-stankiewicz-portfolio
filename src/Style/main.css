@@ -89,36 +89,35 @@ header {
 rgba(148, 11, 153, 0.35) 100% );
 }
 
-
-div .scrollDown  {
-  animation:pop-up 1s  forwards;
-
-}
-.scrollDown {
-  position: relative;
-  width: 1px;
-  height: 15vh;
-  background-color: var(--main-color);
-  animation: pop-up 0.4s forwards;
+#scrollDownButton a {
+  padding-top: 60px;
+  animation:pop-up 3s  forwards;
 
 }
-
-.scrollDown::before,
-.scrollDown::after {
-  content: "";
+#scrollDownButton a span {
   position: absolute;
-}
-
-.scrollDown::before {
-  bottom: 0;
-  width: 1vh;
-  height: 1vh;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
   border: 1px solid var(--main-color);
-  border-top-color: transparent;
-  border-right-color: transparent;
-  transform: translateX(-50%) rotate(-45deg);
+  border-radius: 100%;
+  box-sizing: border-box;
 }
-
+#scrollDownButton a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
 .socialMedia {
   position: relative;
   display: flex;

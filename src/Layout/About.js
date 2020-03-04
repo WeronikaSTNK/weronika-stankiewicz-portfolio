@@ -14,7 +14,7 @@ export const About = props => {
 
   return (
     <>
-      <div className="aboutSection">
+      <div className="aboutSection" id="about">
         <h3 className="aboutMe"> {about}</h3>
         <div className="introduction">
           <p className="aboutMeIntro">{introduction1} </p>

@@ -17,7 +17,15 @@ export const ContactFormHooks = (props) => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState({errorsName: '', errorsEmail:"", errorsMessage:""});
+const [messageStatus, setMessageStatus] = useState("");
 
+  handleInputChange = (e) => {
+    e.preventDefault();
+    const target = e.target
+    const name = target.name
+    const value = target.value
+    this.setState({ [name]: value })
+  }
 
   return (
     <div>

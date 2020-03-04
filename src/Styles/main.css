@@ -258,11 +258,11 @@ rgba(148, 11, 153, 0.35) 100% );
 .green {
   background: green;
 }
-.contactFormWrapper{
+/* .contactFormWrapper{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
+} */
 .sendMeAMessage {
   margin:30px;
 }

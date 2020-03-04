@@ -1,5 +1,5 @@
 import React from "react";
-import css from "../Style/about.css";
+import css from "../Styles/about.css";
 import polandrock from "../images/polandrock.png";
 import countToWoodstock from "./utils";
 

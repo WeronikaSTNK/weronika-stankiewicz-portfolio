@@ -57,12 +57,10 @@ export const Skills = props => {
         />
         <span className="description"> {skill_learn}</span>
       </div>
-
       <h4 className="skillsHeader"> {hard_skills}</h4>
       <div className="skillset">
         <FontAwesomeIcon className="icon" icon={faHtml5} size="3x" />
         <span className="description"> {html}</span>
-
         <FontAwesomeIcon className="icon" icon={faCss3} size="3x" />
         <span className="description"> {CSS}</span>
 

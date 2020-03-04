@@ -265,6 +265,7 @@ rgba(148, 11, 153, 0.35) 100% );
 } */
 .sendMeAMessage {
   margin:30px;
+  text-align: center;
 }
 @media(min-width:1024px) {
   .contactForm {

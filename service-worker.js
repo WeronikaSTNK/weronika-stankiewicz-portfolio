@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/weronika-stankiewicz-portfolio/precache-manifest.a7719a35cde348ffab70f3bea08279fb.js"
+  "/weronika-stankiewicz-portfolio/precache-manifest.ebccd2bba3c4ae0717c51cb57ecc2327.js"
 );
 
 self.addEventListener('message', (event) => {

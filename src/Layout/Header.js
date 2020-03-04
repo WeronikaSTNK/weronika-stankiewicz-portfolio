@@ -25,7 +25,7 @@ export const Header = () => {
       </div>
       <section className="logoName">
         <h1>
-          <div className="headerDarkName">Weronika Maria Stankiewicz</div>
+          <div className="headerDarkName">Weronika  Stankiewicz</div>
         </h1>
         <h3>
           <div className="headerLightName">Junior Frontend Developer </div>

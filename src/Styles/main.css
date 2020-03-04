@@ -20,9 +20,9 @@ body {
 
 .headerDarkName {
   font-family: "Comfortaa", sans-serif;
-  font-size: 2.5rem;
-  line-height: 6rem;
-      display: inline-block;
+  font-size: 2rem;
+  line-height: 3rem;
+  display: inline-block;
   transform: scale(0);
   animation: pop-up 0.8s forwards;
 
@@ -62,7 +62,7 @@ h3 .headerLightName {
 
 
 .icon {
- padding: 5px;
+padding: 5px;
 color: var(--dark-main-color);
 }
 

@@ -6,11 +6,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --main-color: rgb(205, 15, 208);
-  --dark-main-color: #81037b;
+  --main-color: rgba(156, 105, 204, 0.74);
+  --dark-main-color: #721497;
   --light-main-color: rgb(252, 252, 252);
-  --dark-color: rgb(78, 76, 76);
-  --light-color: rgb(255, 247, 251);
+  --dark-color: rgb(78, 76, 77);
+  --light-color: rgb(249, 235, 255);
 }
 
 body {
@@ -34,7 +34,7 @@ h3 {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 h3::after {

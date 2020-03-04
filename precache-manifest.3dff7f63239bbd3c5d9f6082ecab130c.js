@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68987b637304eeae0b8d15440dd66462",
+    "revision": "248742182c22c91c28248cb59b188e60",
     "url": "/weronika-stankiewicz-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weronika-stankiewicz-portfolio/static/css/2.fc255550.chunk.css"
   },
   {
-    "revision": "3b1d88fd85f41e23c7ee",
-    "url": "/weronika-stankiewicz-portfolio/static/css/main.bed419a0.chunk.css"
+    "revision": "91a0d7042a74cefcf60f",
+    "url": "/weronika-stankiewicz-portfolio/static/css/main.37592ea4.chunk.css"
   },
   {
     "revision": "2a386b256b390431d18b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weronika-stankiewicz-portfolio/static/js/2.5e8cf67c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b1d88fd85f41e23c7ee",
-    "url": "/weronika-stankiewicz-portfolio/static/js/main.3c9a7a2f.chunk.js"
+    "revision": "91a0d7042a74cefcf60f",
+    "url": "/weronika-stankiewicz-portfolio/static/js/main.8033e8cb.chunk.js"
   },
   {
     "revision": "8065549a43e2a6e16c88",

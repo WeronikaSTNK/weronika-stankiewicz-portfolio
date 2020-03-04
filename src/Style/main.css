@@ -176,9 +176,9 @@ rgba(148, 11, 153, 0.35) 100% );
 }
 .contactForm {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   width: 100%;
   max-width: 600px;
   min-height: 400px;

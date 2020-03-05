@@ -1,9 +1,10 @@
 import React from "react";
-import css from "../Styles/main.css";
+import  "../Styles/main.css";
 import content from "../content.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import ContactForm from "./components/ContactForm";
+// import ContactFormHooks from "./components/ContactFormHooks";
 
 export const Contact = props => {
   const { contact, send_me_a_message } = props.content;
@@ -14,14 +15,24 @@ export const Contact = props => {
         <a href="https://github.com/WeronikaSTNK">
           <FontAwesomeIcon className="iconHeader" icon={faGithub} size="3x" />
         </a>
-          <a href="https://www.linkedin.com/in/weronika-stankiewicz" >
+        <a href="https://www.linkedin.com/in/weronika-stankiewicz">
           <FontAwesomeIcon className="iconHeader" icon={faLinkedin} size="3x" />
         </a>
       </div>
       <div className="contactFormWrapper">
-        <span className="sendMeAMessage" > {send_me_a_message}</span>
-<ContactForm id="mainContactForm" className="contactForm" name="contactForm" method="post" action="" content={content} language={content.language}/>
+        <p className="sendMeAMessage"> {send_me_a_message}</p>
 
+        {/* <ContactFormHooks id="mainContactForm" className="contactForm" name="contactForm" method="post" action="" content={content} language={content.language}/> */}
+
+        <ContactForm
+          id="mainContactForm"
+          className="contactForm"
+          name="contactForm"
+          method="post"
+          action=""
+          content={content}
+          language={content.language}
+        />
       </div>
     </div>
   );

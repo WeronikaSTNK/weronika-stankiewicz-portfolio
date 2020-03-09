@@ -28,6 +28,7 @@ class ContactForm extends Component {
     this.setState({ [name]: value })
   }
 
+
   validateMail() {
     let errors = {}
     let formIsValid = true

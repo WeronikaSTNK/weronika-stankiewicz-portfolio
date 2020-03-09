@@ -41,4 +41,45 @@
 
 
 
+},
+{
+  "language": "en",
+        "home": "Start",
+        "about": "About",
+        "soft_skills": "Soft skills",
+        "skill_team": "I feel great with teamwork",
+        "skill_communication": "I am very communicate and I easily make contact.",
+        "skill_ambitious": "I've always been very ambitious. I graduated with a very good grade and a rector's scholarship for the best students.",
+        "skill_learn": "I like to learn (really! :) )",
+        "hard_skills": "Hard skills",
+        "html": "Knowledge of HTML",
+        "CSS": "Knowledge of CSS",
+        "javascript": "I'm learning JavaScript all the time. I can code a lot, I want to be able to code more",
+        "react": "React.js is my favorite part of the frontend technologies.",
+        "git": "I use git without any problems",
+        "github": "I use github/gitlab",
+        "jira": "I have already gained experience in using JIRA.",
+        "sass": " I've never used too much but I know what you can do with SASS ",
+        "scrum": "I know SCRUM methodology",
+        "redux": "I understand Flux architecture and one-way data flow in Redux",
+        "materialUI":"I used this library many times ",
+        "flexbox": "I learned flexbox to create responsive views efficiently",
+        "cypress": "
+My adventure with working in IT began with writing end to end tests using Cypress.io",
+        "vscode": "I use Visual Studio Code",
+        "npm": "I use npm",
+        "conf": "Mam niewielkie doświadczenie w pisaniu dokumentacji w Confluence",
+        "styled_components": "Potrafię zaimplementować w projekcie",
+
+"introduction1": "My name is Weronika. I started learning programming spontaneously. At the time I was finishing Mechanics and Machine Building at the Gdańsk University of Technology and I understood that I got lost by choosing a major in high school. I started learning HTML, CSS, JavaScript and React.js. Thanks to my persistence, I found my first internship in 3 months. I really want to develop skills in web technologies. I know that there is a lot of science ahead of me. However, I also know that this is what I want to do in my life.",
+"introduction2": " Privately, I'm an extrovert. I love contact with people. I have a wonderful son and husband. I am a huge music enthusiast and every year I count the time in the days remaining to Woodstock :). I am a vegetarian, and in my free time I love to experiment in meatless cuisine, read books (non-fiction and detective stories) and have been practicing pole dance for some time.",
+"contact": "Contact",
+"send_me_a_message": "If you have any questions, please send a message or contact me on LinkedIn.",
+"your_name": "Your name:",
+"your_email": "Your e-mail",
+"your_message": "Message",
+"send_message": "Sent a message",
+"hover":"hover over the icon ",
+"woodstockCounter" : " to the most beautiful festival in the world!",
+"additionalInfo": "I have experience in testing E2E of a web application using the Cypress.io tool and in the implementation and development of applications in React.js. In addition, I am familiar with work in SCRUM methodology."
 }]

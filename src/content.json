@@ -1,8 +1,9 @@
 [{
-   "language": "pl",
-
+  "language": "pl",
         "home": "Start",
         "about": "O mnie",
+        "contact": "Kontakt",
+
         "soft_skills": "Umiejętności miękkie",
         "skill_team": "Świetnie czuję się pracując zespołowo",
         "skill_communication": "Jestem bardzo komunikatywna i łatwo nawiązuję kontakt.",
@@ -28,7 +29,6 @@
         "styled_components": "Potrafię zaimplementować w projekcie",
 "introduction1": "Nazywam się Weronika. Naukę programowania zaczęłam spontanicznie. Kończyłam wówczas Mechanikę i Budowę Maszyn na Politechnice Gdańskiej i zrozumiałam, że zabłądziłam wybierając kierunek studiów w szkole średniej. Rozpoczęłam od nauki HTML, CSS, JavaScript i React.js. Dzięki swojemu uporowi w 3 miesiące znalazłam pierwszy staż. Bardzo chcę rozwijać umiejętności w technologiach webowych. Wiem, że ogrom nauki przede mną. Jednak wiem też, że własnie tym chcę się zajmować w życiu.",
 "introduction2": "Prywatnie jestem ekstraweryczką. Uwielbiam kontakt z ludźmi. Mam cudownego synka i męża. Jestem ogromną entuzjastką muzyki i każdego roku odliczam czas w dniach, które pozostały do Woodstocku :). Jestem wegetarianką, a w wolnych chwilach uwielbiam eksperymentować w bezmięsnej kuchni, czytać książki (literatura faktu i kryminały) oraz od jakiegoś czasu ćwiczę pole dance. ",
-"contact": "Kontakt",
 "send_me_a_message": "Jeśli masz jakieś pytania, proszę wyślij wiadomość lub skontaktuj się ze mną na LinkedIn'ie.",
 "your_name": "Twoje Imię:",
 "your_email": "E-mail",
@@ -39,9 +39,8 @@
 "additionalInfo": "Posiadam doświadczenie w testowaniu E2E aplikacji webowej z wykorzystaniem narzędzia Cypress.io oraz w implementacji i rozbudowie aplikacji w React.js.  Dodatkowo, jest mi znana praca w metodologii SCRUM."
 
 
-
-
 },
+
 {
   "language": "en",
         "home": "Start",
@@ -64,8 +63,7 @@
         "redux": "I understand Flux architecture and one-way data flow in Redux",
         "materialUI":"I used this library many times ",
         "flexbox": "I learned flexbox to create responsive views efficiently",
-        "cypress": "
-My adventure with working in IT began with writing end to end tests using Cypress.io",
+        "cypress": "My adventure with working in IT began with writing end to end tests using Cypress.io",
         "vscode": "I use Visual Studio Code",
         "npm": "I use npm",
         "conf": "Mam niewielkie doświadczenie w pisaniu dokumentacji w Confluence",

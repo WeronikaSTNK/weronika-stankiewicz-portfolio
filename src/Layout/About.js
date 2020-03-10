@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from 'react'
 import   "../Styles/about.css";
 import polandrock from "../images/polandrock.png";
 import countToWoodstock from "./utils";

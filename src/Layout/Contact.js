@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from 'react'
 import  "../Styles/main.css";
 import content from "../content.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,7 +7,7 @@ import ContactForm from "./components/ContactForm";
 // import ContactFormHooks from "./components/ContactFormHooks";
 
 export const Contact = props => {
-  const { contact, send_me_a_message } = props.content;
+  const { contact, send_me_a_message, your_name } = props.content;
   return (
     <div className="contactSection">
       <h3> {contact}</h3>
@@ -30,8 +30,8 @@ export const Contact = props => {
           name="contactForm"
           method="post"
           action=""
-          content={content}
-          language={content.language}
+          content={props.content}
+          language={props.content.language}
         />
       </div>
     </div>

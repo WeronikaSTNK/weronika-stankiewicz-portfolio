@@ -1,11 +1,11 @@
-import React from "react";
+import * as React from 'react'
 import avatar from "../images/avatar.jpg";
 import "../Styles/main.css";
 import ScrollButton from "react-scroll-button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-export const Header = () => {
+export const Header = (langHandler,language) => {
   return (
     <header id="header">
       <div>
@@ -31,9 +31,11 @@ export const Header = () => {
           <div className="headerLightName">Junior Frontend Developer </div>
         </h3>
 
+
     <div id="scrollDownButton">
   <a href="#about"><span></span></a>
 </div>
+
       <ScrollButton
         behavior={"smooth"}
         buttonBackgroundColor={"var(--dark-main-color)"}

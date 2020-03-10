@@ -7,6 +7,7 @@ import content from '../content.json';
 import Footer from './Footer';
 import Skills from './Skills'
 import Contact from './Contact';
+import { Navigation } from './Navigation';
 class Portfolio extends Component {
   state = {
     language: 'pl',
@@ -31,11 +32,11 @@ class Portfolio extends Component {
     }
   }
 
-  naviHandler = e => {
+  navigationHandler = e => {
     if (
-      e.target.className === 'naviBurger' ||
-      e.target.className === 'naviBurgerSpan' ||
-      e.target.className.includes('naviListButton')
+      e.target.className === 'navigationBurger' ||
+      e.target.className === 'navigationBurgerSpan' ||
+      e.target.className.includes('navigationListButton')
     ) {
       document.querySelector('.navigation').classList.toggle('active');
     }
@@ -68,11 +69,20 @@ class Portfolio extends Component {
 
     return (
       <>
+      <Navigation
+       navigationHandler={this.navigationHandler}
+       langHandler={this.langHandler}
+       scrollHandler={this.scrollHandler}
+       language={language}
+       content={content}
+       scrollY={scrollY}
+       />
+
         <Header />
         <main>
-          <About content={content} scrollY={scrollY} />
+        <About content={content} scrollY={scrollY} />
         <Skills content={content} scrollY={scrollY}/>
-        <Contact content={content} scrollY={scrollY} />
+        <Contact content={content} scrollY={scrollY} language={language}/>
         </main>
         < Footer />
       </>

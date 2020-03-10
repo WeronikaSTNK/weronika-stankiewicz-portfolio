@@ -122,20 +122,23 @@ class ContactForm extends Component {
   }
 
   render() {
-
+    const { your_name, your_email, your_message, send_message } = this.props.content;
     return (
       <form className='contactForm'>
 
-        <label htmlFor="name">Twoje imię:</label>
+        <label htmlFor="name">{your_name}</label>
         <input type="text" className="name" name="name" id="name"  required onChange={this.handleInputChange} value={this.state.name} />
         {this.state.errors.name ? <span className="error"> {this.state.errors.name}</span> : ""}
-        <label htmlFor="email">Twój e-mail:</label>
-        <input type="email" className="email" name="email" id="email"  required onChange={this.handleInputChange} value={this.state.email} />
+
+        <label htmlFor="email">{your_email}</label>
+        <input type="email" className="email" name="email" id="email"   required onChange={this.handleInputChange} value={this.state.email} />
         {this.state.errors.email ? <span className="error"> {this.state.errors.email}</span> : ""}
-        <label htmlFor="message">Wiadomość:</label>
+
+        <label htmlFor="message">{your_message}</label>
         <textarea className="message" name="message" id="message" cols="30" rows="8"  required onChange={this.handleInputChange} value={this.state.message}></textarea>
         {this.state.errors.message ? <span className="error"> {this.state.errors.message}</span> : ""}
-        <button className="formButton" type="submit" onClick={this.sentMessage} >Wyślij</button>
+
+        <button className="formButton" type="submit" onClick={this.sentMessage} >{send_message}</button>
         {this.state.messageStatus ? <span className={this.state.color}> {this.state.messageStatus}</span> : ""}
       </form>
     );

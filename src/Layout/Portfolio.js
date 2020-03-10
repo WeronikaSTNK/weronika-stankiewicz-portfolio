@@ -1,29 +1,27 @@
-
-
-import React, { Component } from 'react';
-import Header from './Header';
-import About from './About';
-import content from '../content.json';
-import Footer from './Footer';
-import Skills from './Skills'
-import Contact from './Contact';
-import { Navigation } from './Navigation';
+import React, { Component } from "react";
+import Header from "./Header";
+import About from "./About";
+import content from "../content.json";
+import Footer from "./Footer";
+import Skills from "./Skills";
+import Contact from "./Contact";
+import { Navigation } from "./Navigation";
 class Portfolio extends Component {
   state = {
-    language: 'pl',
+    language: "pl",
     content: {},
     mobile: true,
     scrollY: 0
   };
 
-  getData = (lang = 'pl') => {
+  getData = (lang = "pl") => {
     const translation = content.filter(element => element.language === lang);
     this.setState({ content: translation[0] });
   };
 
   checkDevice() {
-    const deviceWidth = window.innerWidth > 0 ? window.innerWidth : '640';
-    const deviceHeight = window.innerHeight > 0 ? window.innerHeight : '360';
+    const deviceWidth = window.innerWidth > 0 ? window.innerWidth : "640";
+    const deviceHeight = window.innerHeight > 0 ? window.innerHeight : "360";
 
     if (deviceHeight >= 768 && deviceWidth >= 1024) {
       this.setState({ mobile: false });
@@ -32,14 +30,12 @@ class Portfolio extends Component {
     }
   }
 
-  navigationHandler = e => {
-    if (
-      e.target.className === 'navigationBurger' ||
-      e.target.className === 'navigationBurgerSpan' ||
-      e.target.className.includes('navigationListButton')
-    ) {
-      document.querySelector('.navigation').classList.toggle('active');
-    }
+  navigationToggle = e => {
+    const mainNav = document.getElementById("menu");
+    const navBarToggle = document.getElementById("toggle");
+    navBarToggle.addEventListener("click", function() {
+      mainNav.classList.toggle("active");
+    });
   };
 
   langHandler = e => {
@@ -55,7 +51,7 @@ class Portfolio extends Component {
   componentDidMount() {
     this.getData();
     this.checkDevice();
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   }
 
   componentDidUpdate() {
@@ -65,26 +61,26 @@ class Portfolio extends Component {
   }
 
   render() {
-    const { language, content, mobile, scrollY } = this.state;
+    const { language, content, scrollY } = this.state;
 
     return (
       <>
-      <Navigation
-       navigationHandler={this.navigationHandler}
-       langHandler={this.langHandler}
-       scrollHandler={this.scrollHandler}
-       language={language}
-       content={content}
-       scrollY={scrollY}
-       />
+        <Navigation
+          navigationToggle={this.navigationToggle}
+          langHandler={this.langHandler}
+          scrollHandler={this.scrollHandler}
+          language={language}
+          content={content}
+          scrollY={scrollY}
+        />
 
         <Header />
         <main>
-        <About content={content} scrollY={scrollY} />
-        <Skills content={content} scrollY={scrollY}/>
-        <Contact content={content} scrollY={scrollY} language={language}/>
+          <About content={content} scrollY={scrollY} />
+          <Skills content={content} scrollY={scrollY} />
+          <Contact content={content} scrollY={scrollY} language={language} />
         </main>
-        < Footer />
+        <Footer />
       </>
     );
   }

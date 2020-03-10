@@ -1,17 +1,112 @@
-ul {
-  list-style-type: none;
-  margin: 0;
+* {
+  box-sizing: border-box;
   padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
+  margin: 0;
 }
 
-.navigation{
- position: relative;
-  background-color: #573535;
+.navbar {
+  font-size: 18px;
+  padding: 5px;
+  background-color:  var(--navi-color);
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: var(--main-color)
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .navbar-toggle {
+    display: none;
+
+  }
+
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+.languageOptions > button{
+ padding: 15px;
+  border: none;
+  font: inherit;
+  color: var(--dark-main-color);
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+.navigationListButton{
+   position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 10px 0;
+  background: none;
+  border: none;
+  font-size: 1.5em;
   overflow: hidden;
+  cursor: pointer;
+  transition: transform .3s ease-in-out;
+}
+.navigationListButton::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 100%;
+  height: 2px;
+  background-color: var(--dark-main-color);
+  transition: transform .3s;
 }
 
-.navigationBurger{
-  background-color: red;
+.navigationListButton:hover::before {
+  transform: translateX(-50%) scaleX(.9);
+}
 }

@@ -5,6 +5,7 @@
 *::after {
   padding: 0;
   box-sizing: border-box;
+  --navi-color: rgba(209, 106, 212, 0.75);
   --main-color: rgba(156, 105, 204, 0.74);
   --dark-main-color: #721497;
   --light-main-color: rgb(252, 252, 252);

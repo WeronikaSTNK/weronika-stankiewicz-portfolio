@@ -5,7 +5,7 @@
 *::after {
   padding: 0;
   box-sizing: border-box;
-  --navi-color: rgba(209, 106, 212, 0.75);
+  --navi-color: rgba(148, 11, 153, 0.35) ;
   --main-color: rgba(156, 105, 204, 0.74);
   --dark-main-color: #721497;
   --light-main-color: rgb(252, 252, 252);
@@ -61,7 +61,6 @@ h3 .headerLightName {
   color: var(--main-color)
 }
 
-
 .icon {
 padding: 5px;
 color: var(--dark-main-color);
@@ -71,7 +70,9 @@ header img {
   border-radius: 50%;
   width: 150px;
   border: 1px solid;
-    animation: enter 2s ease-in-out both;}
+    animation: enter 2s ease-in-out both;
+}
+
 header {
   position: relative;
   width: 100vw;
@@ -87,7 +88,7 @@ header {
   background: linear-gradient(
     0deg,
    var(--light-color) 44%,
-rgba(148, 11, 153, 0.35) 100% );
+   var(--navi-color)100% );
 }
 
 #scrollDownButton a {

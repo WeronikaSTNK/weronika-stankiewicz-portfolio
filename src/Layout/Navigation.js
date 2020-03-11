@@ -44,7 +44,6 @@ export const Navigation = props => {
             EN
           </button>
         </div>
-
         <ul className="main-nav" id="menu">
           <li className="nav-links" onClick={navigationToggle}>
             <ScrollIntoView selector="header">
@@ -53,7 +52,6 @@ export const Navigation = props => {
               </button>
             </ScrollIntoView>
           </li>
-
           <li className="nav-links" onClick={navigationToggle}>
             <ScrollIntoView selector=".aboutSection">
               <button className="navigationListButton">

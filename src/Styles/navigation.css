@@ -7,7 +7,8 @@
 .navbar {
   font-size: 18px;
   padding: 5px;
-  background-color:  var(--navi-color);
+
+background-color: rgba(148, 11, 153, 0.35) ;
 }
 
 .main-nav {
@@ -37,6 +38,31 @@
 
 .active {
   display: block;
+}
+
+.languageOptions > button{
+ padding: 10px;
+  border: none;
+  font: inherit;
+  color: var(--light-color);
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+font-size: 1rem;
+
+}
+.navigationListButton{
+  position: relative;
+  display: block;
+  margin:0 auto;
+  padding: auto;
+  background: none;
+  border: none;
+  font-size: 0.8em;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform .3s ease-in-out;
+  color: var(--light-color)
 }
 
 @media screen and (min-width: 768px) {
@@ -72,28 +98,21 @@
     color: rgba(255, 255, 255, 1);
   }
 
-.languageOptions > button{
- padding: 15px;
-  border: none;
-  font: inherit;
-  color: var(--dark-main-color);
-  background-color: transparent;
-  cursor: pointer;
-  text-transform: uppercase;
 
-}
 .navigationListButton{
-   position: relative;
+  position: relative;
   display: block;
   margin: 0 auto;
-  padding: 20px 10px 0;
+  padding: 10px 10px 0;
   background: none;
   border: none;
-  font-size: 1.5em;
+  font-size: 1em;
   overflow: hidden;
   cursor: pointer;
   transition: transform .3s ease-in-out;
+  color: var(--light-color)
 }
+
 .navigationListButton::before {
   content: "";
   position: absolute;

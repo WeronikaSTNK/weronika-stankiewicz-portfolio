@@ -5,7 +5,7 @@ import ScrollButton from "react-scroll-button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-export const Header = (langHandler,language) => {
+export const Header = () => {
   return (
     <header id="header">
       <div>
@@ -30,12 +30,9 @@ export const Header = (langHandler,language) => {
         <h3>
           <div className="headerLightName">Junior Frontend Developer </div>
         </h3>
-
-
     <div id="scrollDownButton">
   <a href="#about"><span></span></a>
 </div>
-
       <ScrollButton
         behavior={"smooth"}
         buttonBackgroundColor={"var(--dark-main-color)"}

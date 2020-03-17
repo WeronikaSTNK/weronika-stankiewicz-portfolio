@@ -2,6 +2,7 @@ import * as React from 'react'
 import   "../Styles/about.css";
 import polandrock from "../images/polandrock.png";
 import countToWoodstock from "./utils";
+import PropTypes from 'prop-types';
 
 export const About = props => {
   const {
@@ -32,5 +33,11 @@ export const About = props => {
     </>
   );
 };
-
+About.propTypes = {
+  about: PropTypes.string,
+    introduction1: PropTypes.string,
+    introduction2:PropTypes.string,
+    woodstockCounter: PropTypes.string,
+    additionalInfo: PropTypes.string,
+}
 export default About;

@@ -4,10 +4,12 @@ import content from "../content.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import ContactForm from "./components/ContactForm";
+import PropTypes from 'prop-types';
+
 // import ContactFormHooks from "./components/ContactFormHooks";
 
 export const Contact = props => {
-  const { contact, send_me_a_message, your_name } = props.content;
+  const { contact, send_me_a_message } = props.content;
   return (
     <div className="contactSection">
       <h3> {contact}</h3>
@@ -21,9 +23,7 @@ export const Contact = props => {
       </div>
       <div className="contactFormWrapper">
         <p className="sendMeAMessage"> {send_me_a_message}</p>
-
         {/* <ContactFormHooks id="mainContactForm" className="contactForm" name="contactForm" method="post" action="" content={content} language={content.language}/> */}
-
         <ContactForm
           id="mainContactForm"
           className="contactForm"
@@ -37,5 +37,9 @@ export const Contact = props => {
     </div>
   );
 };
+Contact.propTypes = {
+  contact: PropTypes.string,
+  send_me_a_message: PropTypes.string
+}
 
 export default Contact;

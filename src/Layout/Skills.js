@@ -7,7 +7,7 @@ import {
   faGraduationCap,
   faChalkboardTeacher
 } from "@fortawesome/free-solid-svg-icons";
-
+import PropTypes from 'prop-types';
 import {
   faReact,
   faHtml5,
@@ -87,4 +87,22 @@ export const Skills = props => {
     </div>
   );
 };
+Skills.propTypes = {
+      soft_skills: PropTypes.string,
+    skill_team:PropTypes.string,
+    skill_communication: PropTypes.string,
+    skill_ambitious: PropTypes.string,
+    skill_learn: PropTypes.string,
+    hard_skills: PropTypes.string,
+    html: PropTypes.string,
+    CSS: PropTypes.string,
+    react: PropTypes.string,
+    javascript: PropTypes.string,
+    git: PropTypes.string,
+    github: PropTypes.string,
+    jira: PropTypes.string,
+    sass: PropTypes.string,
+    npm:PropTypes.string,
+    hove: PropTypes.string,
+}
 export default Skills;

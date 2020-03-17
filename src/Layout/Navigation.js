@@ -9,7 +9,6 @@ export const Navigation = props => {
     langHandler,
     language,
     navigationToggle,
-    scrollY
   } = props;
   const { about, contact, home } = props.content;
 
@@ -31,7 +30,6 @@ export const Navigation = props => {
           >
             PL
           </button>
-
           <button
             className={
               language === "en"
@@ -59,7 +57,6 @@ export const Navigation = props => {
               </button>
             </ScrollIntoView>
           </li>
-
           <li className="nav-links" onClick={navigationToggle}>
             <ScrollIntoView selector=".contactSection">
               <button className="navigationListButton">

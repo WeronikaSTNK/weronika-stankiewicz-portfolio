@@ -58,6 +58,7 @@ class Portfolio extends Component {
     if (this.state.language !== this.state.content.language) {
       this.getData(this.state.language);
     }
+    this.navigationToggle()
   }
 
   render() {

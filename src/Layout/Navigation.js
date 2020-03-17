@@ -9,16 +9,17 @@ export const Navigation = props => {
     langHandler,
     language,
     navigationToggle,
+    naviHandler
   } = props;
   const { about, contact, home } = props.content;
 
   return (
     <div className="navigation">
-      <nav className="navbar" onClick={navigationToggle}>
+      <nav className="navbar" onClick={naviHandler}>
         <span className="navbar-toggle" id="toggle">
           <FontAwesomeIcon icon={faBars} size="xs" />
         </span>
-        <div className="languageOptions">
+           <div className="languageOptions">
           <button
             className={
               language === "pl"

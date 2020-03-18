@@ -33,6 +33,13 @@ class Portfolio extends Component {
     }
   }
 
+  navigationToggle = e => {
+    const mainNav = document.getElementById("menu");
+    const navBarToggle = document.getElementById("toggle");
+    navBarToggle.addEventListener("click", function() {
+      mainNav.classList.toggle("active");
+    });
+  };
 
   handleMenuClick = () => {
     this.setState({ openMenu: !this.state.openMenu });
@@ -61,6 +68,7 @@ class Portfolio extends Component {
     if (this.state.language !== this.state.content.language) {
       this.getData(this.state.language);
     }
+    this.navigationToggle()
   }
 
   render() {

@@ -7,11 +7,14 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import { Navigation } from "./Navigation";
 class Portfolio extends Component {
+
   state = {
     language: "pl",
     content: {},
     mobile: true,
-    scrollY: 0
+    scrollY: 0,
+      openMenu: false,
+      scroll: false
   };
 
   getData = (lang = "pl") => {
@@ -30,12 +33,9 @@ class Portfolio extends Component {
     }
   }
 
-  navigationToggle = e => {
-    const mainNav = document.getElementById("menu");
-    const navBarToggle = document.getElementById("toggle");
-    navBarToggle.addEventListener("click", function() {
-      mainNav.classList.toggle("active");
-    });
+
+  handleMenuClick = () => {
+    this.setState({ openMenu: !this.state.openMenu });
   };
 
   langHandler = e => {
@@ -54,11 +54,15 @@ class Portfolio extends Component {
     window.addEventListener("scroll", this.handleScroll);
   }
 
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
   componentDidUpdate() {
     if (this.state.language !== this.state.content.language) {
       this.getData(this.state.language);
     }
     this.navigationToggle()
+
   }
 
   render() {

@@ -8,14 +8,13 @@ export const Navigation = props => {
   const {
     langHandler,
     language,
-    navigationToggle,
-    naviHandler
+handleMenuClick
   } = props;
   const { about, contact, home } = props.content;
 
   return (
     <div className="navigation">
-      <nav className="navbar" onClick={naviHandler}>
+      <nav className="navbar" onClick={handleMenuClick}>
         <span className="navbar-toggle" id="toggle">
           <FontAwesomeIcon icon={faBars} size="xs" />
         </span>
@@ -44,21 +43,21 @@ export const Navigation = props => {
           </button>
         </div>
         <ul className="main-nav" id="menu">
-          <li className="nav-links" onClick={navigationToggle}>
+          <li className="nav-links" onClick={handleMenuClick}>
             <ScrollIntoView selector="header">
               <button className="navigationListButton " id="btn">
                 {home}
               </button>
             </ScrollIntoView>
           </li>
-          <li className="nav-links" onClick={navigationToggle}>
+          <li className="nav-links" onClick={handleMenuClick}>
             <ScrollIntoView selector=".aboutSection">
               <button className="navigationListButton">
                 {about}
               </button>
             </ScrollIntoView>
           </li>
-          <li className="nav-links" onClick={navigationToggle}>
+          <li className="nav-links" onClick={handleMenuClick}>
             <ScrollIntoView selector=".contactSection">
               <button className="navigationListButton">
                 {contact}

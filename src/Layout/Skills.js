@@ -38,6 +38,7 @@ export const Skills = props => {
     npm,
     hover
   } = props.content;
+console.log(content)
 
   return (
     <div className="skills">
@@ -84,6 +85,8 @@ export const Skills = props => {
         <FontAwesomeIcon className="icon" icon={faNpm} size="3x" />
         <span className="description"> {npm}</span>
       </div>
+      <h4>Dodatkowo:</h4>
+      <span> Potrafię pracować w metodologii<strong>SCRUM,</strong> znam framework do testowania E2E <strong>Cypress.io.</strong>  Korzystam z<strong> Visual Studio Code.</strong></span>
     </div>
   );
 };

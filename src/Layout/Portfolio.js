@@ -73,7 +73,7 @@ class Portfolio extends Component {
 
   render() {
     const { language, content, scrollY } = this.state;
-
+console.log(content)
     return (
       <>
         <Navigation
@@ -87,6 +87,7 @@ class Portfolio extends Component {
 
         <Header />
         <main>
+
           <About content={content} scrollY={scrollY} />
           <Skills content={content} scrollY={scrollY} />
           <Contact content={content} scrollY={scrollY} language={language} />

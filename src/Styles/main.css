@@ -190,7 +190,6 @@ header {
   max-width: 600px;
   min-height: 400px;
   margin: 0 auto;
-  padding: 20px 0;
 }
 
 .contactForm label {
@@ -283,4 +282,24 @@ header {
     flex-wrap: wrap;
   }
 
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    max-height: 90vh;
+    padding: 0px 15px;
+  }
+  .headerDarkName {
+    line-height: 2rem;
+    font-size: 1.8rem;
+  }
+  .headerLightName{
+    font-size: 1.1rem;
+  }
+  h3{
+    padding-bottom: 0.5rem;
+  }
+  h1{
+    line-height: 3rem;
+  }
 }

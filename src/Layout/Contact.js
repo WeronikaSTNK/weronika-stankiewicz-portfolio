@@ -6,8 +6,6 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import ContactForm from "./components/ContactForm";
 import PropTypes from 'prop-types';
 
-// import ContactFormHooks from "./components/ContactFormHooks";
-
 export const Contact = props => {
   const { contact, send_me_a_message } = props.content;
   return (
@@ -23,7 +21,6 @@ export const Contact = props => {
       </div>
       <div className="contactFormWrapper">
         <p className="sendMeAMessage"> {send_me_a_message}</p>
-        {/* <ContactFormHooks id="mainContactForm" className="contactForm" name="contactForm" method="post" action="" content={content} language={content.language}/> */}
         <ContactForm
           id="mainContactForm"
           className="contactForm"

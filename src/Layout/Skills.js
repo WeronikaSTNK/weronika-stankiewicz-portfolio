@@ -38,7 +38,6 @@ export const Skills = props => {
     npm,
     hover
   } = props.content;
-console.log(content)
 
   return (
     <div className="skills">
@@ -64,24 +63,18 @@ console.log(content)
         <span className="description"> {html}</span>
         <FontAwesomeIcon className="icon" icon={faCss3} size="3x" />
         <span className="description"> {CSS}</span>
-
         <FontAwesomeIcon className="icon" icon={faJsSquare} size="3x" />
         <span className="description"> {javascript}</span>
         <FontAwesomeIcon className="icon" icon={faReact} size="3x" />
         <span className="description"> {react}</span>
-
         <FontAwesomeIcon className="icon" icon={faSass} size="3x" />
         <span className="description"> {sass}</span>
-
         <FontAwesomeIcon className="icon" icon={faGithub} size="3x" />
         <span className="description"> {github}</span>
-
         <FontAwesomeIcon className="icon" icon={faGit} size="3x" />
         <span className="description"> {git}</span>
-
         <FontAwesomeIcon className="icon" icon={faJira} size="3x" />
         <span className="description"> {jira}</span>
-
         <FontAwesomeIcon className="icon" icon={faNpm} size="3x" />
         <span className="description"> {npm}</span>
       </div>

@@ -7,18 +7,17 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import { Navigation } from "./Navigation";
 class Portfolio extends Component {
-
   state = {
     language: "pl",
     content: {},
     mobile: true,
     scrollY: 0,
-      openMenu: false,
-      scroll: false
+    openMenu: false,
+    scroll: false,
   };
 
   getData = (lang = "pl") => {
-    const translation = content.filter(element => element.language === lang);
+    const translation = content.filter((element) => element.language === lang);
     this.setState({ content: translation[0] });
   };
 
@@ -33,10 +32,10 @@ class Portfolio extends Component {
     }
   }
 
-  navigationToggle = e => {
+  navigationToggle = (e) => {
     const mainNav = document.getElementById("menu");
     const navBarToggle = document.getElementById("toggle");
-    navBarToggle.addEventListener("click", function() {
+    navBarToggle.addEventListener("click", function () {
       mainNav.classList.toggle("active");
     });
   };
@@ -45,12 +44,12 @@ class Portfolio extends Component {
     this.setState({ openMenu: !this.state.openMenu });
   };
 
-  langHandler = e => {
+  langHandler = (e) => {
     const language = e.target.value;
     this.setState({ language });
   };
 
-  handleScroll = e => {
+  handleScroll = (e) => {
     const scrollY = window.scrollY;
     this.setState({ scrollY });
   };
@@ -68,12 +67,12 @@ class Portfolio extends Component {
     if (this.state.language !== this.state.content.language) {
       this.getData(this.state.language);
     }
-    this.navigationToggle()
+    this.navigationToggle();
   }
 
   render() {
     const { language, content, scrollY } = this.state;
-console.log(content)
+    console.log(content);
     return (
       <>
         <Navigation
@@ -84,10 +83,8 @@ console.log(content)
           content={content}
           scrollY={scrollY}
         />
-
         <Header />
         <main>
-
           <About content={content} scrollY={scrollY} />
           <Skills content={content} scrollY={scrollY} />
           <Contact content={content} scrollY={scrollY} language={language} />

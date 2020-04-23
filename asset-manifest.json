@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/weronika-stankiewicz-portfolio/static/css/main.56294af3.chunk.css",
-    "main.js": "/weronika-stankiewicz-portfolio/static/js/main.d7ad381b.chunk.js",
-    "main.js.map": "/weronika-stankiewicz-portfolio/static/js/main.d7ad381b.chunk.js.map",
+    "main.js": "/weronika-stankiewicz-portfolio/static/js/main.4864fd2a.chunk.js",
+    "main.js.map": "/weronika-stankiewicz-portfolio/static/js/main.4864fd2a.chunk.js.map",
     "runtime-main.js": "/weronika-stankiewicz-portfolio/static/js/runtime-main.e6302750.js",
     "runtime-main.js.map": "/weronika-stankiewicz-portfolio/static/js/runtime-main.e6302750.js.map",
     "static/css/2.fc255550.chunk.css": "/weronika-stankiewicz-portfolio/static/css/2.fc255550.chunk.css",
     "static/js/2.48664336.chunk.js": "/weronika-stankiewicz-portfolio/static/js/2.48664336.chunk.js",
     "static/js/2.48664336.chunk.js.map": "/weronika-stankiewicz-portfolio/static/js/2.48664336.chunk.js.map",
     "index.html": "/weronika-stankiewicz-portfolio/index.html",
-    "precache-manifest.7ad6c01586b9f01a7004d51543dece5b.js": "/weronika-stankiewicz-portfolio/precache-manifest.7ad6c01586b9f01a7004d51543dece5b.js",
+    "precache-manifest.8ba09e619b5cd588c98fa598de1d3c1a.js": "/weronika-stankiewicz-portfolio/precache-manifest.8ba09e619b5cd588c98fa598de1d3c1a.js",
     "service-worker.js": "/weronika-stankiewicz-portfolio/service-worker.js",
     "static/css/2.fc255550.chunk.css.map": "/weronika-stankiewicz-portfolio/static/css/2.fc255550.chunk.css.map",
     "static/css/main.56294af3.chunk.css.map": "/weronika-stankiewicz-portfolio/static/css/main.56294af3.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.fc255550.chunk.css",
     "static/js/2.48664336.chunk.js",
     "static/css/main.56294af3.chunk.css",
-    "static/js/main.d7ad381b.chunk.js"
+    "static/js/main.4864fd2a.chunk.js"
   ]
 }

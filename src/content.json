@@ -36,7 +36,8 @@
     "send_message": "Wyślij wiadomość",
     "hover": " najedź na ikonkę ",
     "woodstockCounter": " do najpiękniejszego festiwalu na świecie!",
-    "additionalInfo": "Posiadam doświadczenie w testowaniu E2E aplikacji webowej z wykorzystaniem narzędzia Cypress.io oraz w implementacji i rozbudowie aplikacji w React.js.  Dodatkowo, jest mi znana praca w metodologii SCRUM."
+    "additionalInfo": "Posiadam doświadczenie w testowaniu E2E aplikacji webowej z wykorzystaniem narzędzia Cypress.io oraz w implementacji i rozbudowie aplikacji w React.js.  Dodatkowo, jest mi znana praca w metodologii SCRUM.",
+    "additionalInfoTwo": "Aktualnie pracuję nad aplikacją biznesową wypożyczalni motocykli (MOTO-B w repozytorium). Polega na przerobieniu UI istniejącej strony kolegi, tak aby była bardziej funkcjonalna i responsywna. Do tego będę wdrażała funkcjonalność rezerwacji na podstawie kalendarza i panelu logowania administratora. Backend robi mój przyjaciel przy użyciu (Java & Spring)"
   },
   {
     "language": "en",
@@ -75,6 +76,6 @@
     "send_message": "Sent a message",
     "hover": "hover over the icon ",
     "woodstockCounter": " to the most beautiful festival in the world!",
-    "additionalInfo": "I have experience in testing E2E of a web application using the Cypress.io tool and in the implementation and development of applications in React.js. In addition, I am familiar with work in SCRUM methodology."
-  }
+    "additionalInfo": "I have experience in testing E2E of a web application using the Cypress.io tool and in the implementation and development of applications in React.js. In addition, I am familiar with work in SCRUM methodology.",
+    "additionalInfoTwo": "I am currently working on a motorcycle rental business application (MOTO-B in the repository). It consists in converting the UI of an existing friend's website so that it is more functional and responsive. For this I will implement the booking functionality based on the calendar and administrator login panel. Backend does my friend using (Java & Spring)"}
 ]

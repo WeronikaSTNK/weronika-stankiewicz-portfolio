@@ -24,7 +24,7 @@ export const About = props => {
           <div className="woodstockWrapper">
             <div className="woodstock">
               <img src={polandrock} alt="PolandRock Festival" />
-              <div className="counter"> {countToWoodstock(2020, 7, 0)} </div>
+              <div className="counter"> {countToWoodstock(2021, 7, 0)} </div>
               <p> {woodstockCounter} </p>
             </div>
           </div>

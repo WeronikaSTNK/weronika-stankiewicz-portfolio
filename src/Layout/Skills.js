@@ -36,7 +36,8 @@ export const Skills = props => {
     jira,
     sass,
     npm,
-    hover
+    hover,
+    additionalInfoTwo
   } = props.content;
 
   return (
@@ -80,6 +81,7 @@ export const Skills = props => {
       </div>
       <h4>Dodatkowo:</h4>
       <span> Potrafię pracować w metodologii<strong>SCRUM,</strong> znam framework do testowania E2E <strong>Cypress.io.</strong>  Korzystam z<strong> Visual Studio Code.</strong></span>
+    <h5>{additionalInfoTwo}</h5>
     </div>
   );
 };
